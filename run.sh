@@ -2,9 +2,8 @@ if [ ! -n "$WERCKER_ZOOKEEPER_TARBALL" ]; then
   error 'Please specify the url of the zookeeper tarball'
   exit 1
 fi
-
-export WERCKER_ZOOKEEPER_FILENAME=${$(basename $WERCKER_ZOOKEEPER_TARBALL)%.tar.gz}
-
+export TMP1=$(basename $WERCKER_ZOOKEEPER_TARBALL)
+export WERCKER_ZOOKEEPER_FILENAME=${TMP1%.tar.gz}
 if [ ! -f $WERCKER_CACHE_DIR/$WERCKER_ZOOKEEPER_FILENAME/bin/zkServer.sh ]; then
   debug '$WERCKER_ZOOKEEPER_FILENAME/bin/zkServer.sh not found in cache directory, will download it'
   cd /tmp
