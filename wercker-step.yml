@@ -1,5 +1,5 @@
 name: zookeeper
-version: 0.0.4
+version: 0.0.6
 description: Download-Install and run a zookeeper server.
 keywords:
   - zookeeper
