@@ -1,0 +1,7 @@
+name: zookeeper
+version: 0.0.1
+description: Downloads and installs a zookeeper server.
+properties:
+  zookeeper-tarball:
+    type: string
+    default: http://mirrors.supportex.net/apache/zookeeper/zookeeper-3.4.5/zookeeper-3.4.5.tar.gz
