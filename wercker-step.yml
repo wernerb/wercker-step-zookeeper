@@ -1,6 +1,9 @@
 name: zookeeper
 version: 0.0.4
-description: Downloads and installs a zookeeper server.
+description: Download-Install and run a zookeeper server.
+keywords:
+  - zookeeper
+  - service
 properties:
   tarball:
     type: string
