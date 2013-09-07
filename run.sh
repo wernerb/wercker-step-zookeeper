@@ -20,4 +20,3 @@ fi
 
 debug 'Starting ZooKeeper with /bin/zkServer.sh start'
 $WERCKER_CACHE_DIR/$WERCKER_ZOOKEEPER_FILENAME/bin/zkServer.sh start
-exec 6<>/dev/tcp/localhost/2181 || fail 'socket at localhost:2181 did not open'
