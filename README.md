@@ -20,3 +20,7 @@ Add $ZOOKEEPER_TARBALL as deploy target or application environment variable.
         zookeeper-tarball: $ZOOKEEPER_TARBALL
 ```
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wernerb/wercker-step-zookeeper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
